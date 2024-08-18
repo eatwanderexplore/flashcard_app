@@ -5,7 +5,7 @@ from . import views
 urlpatterns = [
     path(
         "",
-        view.CardListView.as_view(),
+        views.CardListView.as_view(),
         name="card-list"
     ),
 ]
