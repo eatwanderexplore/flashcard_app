@@ -1,7 +1,7 @@
 :root {
     --accent: #6e48ad;
     --accent-bg: white;
-    --bg: #fff;
+    --bg: #ffffff;
     --text: #212121;
     --text-light: #585858;
     --border: #d8dae1;
@@ -15,6 +15,10 @@ article {
     border-radius: 5px;
     padding: 1em;
     margin: 1em 0;
+}
+
+header h1 {
+    text-align: center;
 }
 
 h2 {
@@ -32,7 +36,7 @@ hr {
 
 button,
 a[role="button"] {
-    color: white;
+    color: rgb(127, 33, 155);
     text-decoration: none;
 }
 
