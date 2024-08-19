@@ -3,14 +3,14 @@
     --accent-bg: white;
     --bg: #ffffff;
     --text: #212121;
-    --text-light: #585858;
+    --text-light: #0e0e0e;
     --border: #d8dae1;
     --code: #d81b60;
     --preformatted: #444;
 }
 
 article {
-    background-color: var(--marked);
+    background-color: blue;
     border: 1px solid var(--border);
     border-radius: 5px;
     padding: 1em;
